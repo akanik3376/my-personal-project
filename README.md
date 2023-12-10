@@ -15,7 +15,6 @@
 * Configure DaisyUI
 * Setup Themes
 
-*** You can use this for any of your React Projects. Don't need to change any folders. Just remove that folder or files you don't need in your project.
 
 ## Folder Structure Layout
 
