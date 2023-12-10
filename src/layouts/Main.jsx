@@ -8,7 +8,7 @@ import Navbar from '../Shared/Navbar';
 const Main = () => {
     return (
         <>
-            <Navbar />
+            <Header></Header>
             <Outlet />
             <Footer />
         </>
