@@ -1,4 +1,3 @@
-import { useState } from "react";
 // import pdf from '../../public/-text.pdf'
 const pdf_download = 'http://localhost:5173/-text.pdf'
 const Download = () => {

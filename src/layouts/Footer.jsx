@@ -8,9 +8,9 @@ import logo from '../assets/img/young-bearded-man-with-striped-shirt_273609-5677
 
 const Footer = () => {
     return (
-        <div className='mt-16'>
+        <div className='mt-16  bg-base-200 '>
             <Container>
-                <footer className="grid grid-cols-1 lg:grid-cols-3 space-y-4 lg:space-y-0 p-10 bg-base-200 text-base-content">
+                <footer className="grid grid-cols-1 lg:grid-cols-3 space-y-4 lg:space-y-0 p-10 text-base-content">
                     <aside>
                         <div className="w-24 rounded-full">
                             <img className='rounded-full' src={logo} alt="" />
@@ -74,7 +74,12 @@ const Footer = () => {
                         </a>
 
                     </nav>
+
+
                 </footer>
+                <div className='flex justify-center items-center'>
+                    <p >Copyrights © 2023. All rights reserved.</p>
+                </div>
             </Container>
         </div>
     );

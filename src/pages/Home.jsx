@@ -12,7 +12,7 @@ const Home = () => {
                 <div className='flex flex-col md:flex-row justify-between items-center'>
                     <div className=" w-full md:w-[47%]">
 
-                        <img className='object-cover rounded-t-full rounded-b-full  border-4' src={anik} alt="" />
+                        <img className='object-cover w-full rounded-[100%]  border-4' src={anik} alt="" />
                     </div>
                     <div className='w-full md:w-[47%] mt-5 md:mt-0'>
                         <h2 className="text-5xl font-bold mb-4 text-center md:text-start">Anik Ghosh</h2>
