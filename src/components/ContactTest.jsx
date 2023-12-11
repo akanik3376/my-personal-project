@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import toast from 'react-hot-toast';
 import swal from 'sweetalert';
 import { IoMdSend } from 'react-icons/io';
 

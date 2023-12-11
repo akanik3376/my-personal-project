@@ -31,7 +31,7 @@ const Header = () => {
     return (
         <div>
             <Container>
-                <div className="navbar bg-base-100">
+                <div className="navbar text-white">
                     <div className="navbar-start">
                         {/* for sm */}
                         <div>
