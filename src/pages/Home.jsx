@@ -4,6 +4,7 @@ import Container from '../components/Container';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
+import Download from '../components/Download';
 const Home = () => {
     return (
         <div>
@@ -20,7 +21,7 @@ const Home = () => {
 
                         </p>
 
-                        <button className='font-bold border-2 px-4 py-4 rounded-r-xl rounded-l-xl btn btn-outline btn-success text-black hover:text-white '>Resume Download</button>
+                        <Download></Download>
                     </div>
                 </div>
                 <h3 className='text-red-500 text-xl border-b-2 border-red-500 font-semibold w-24 mt-28'>About me</h3>

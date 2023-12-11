@@ -7,10 +7,8 @@ const AboutMe = () => {
             <Container>
                 <h1 className="text-5xl mb-12 mt-2">About Me</h1>
                 <div className="grid md:grid-cols-3">
-                    <div className="md:col-span-1">
-                        <img src={anik} alt="" />
-                    </div>
-                    <div className=" md:col-span-2 mt-5 md:mt-0 ml-5">
+
+                    <div className=" md:col-span-2 mt-5 md:mt-0 mr-5">
                         <h1 className="text-5xl font-bold">I'm Anik Ghosh</h1>
                         <h6 className="text-3xl my-4 font-semibold">A Lead <span className="text-red-500">Front-End Developer</span> based in
                             <span className="text-red-500"> React</span>
@@ -32,6 +30,10 @@ const AboutMe = () => {
                                 <p>Email : mraju5797@gmail.com</p>
                             </div>
                         </div>
+                    </div>
+
+                    <div className="md:col-span-1">
+                        <img src={anik} alt="" />
                     </div>
                 </div>
                 <Skills></Skills>
