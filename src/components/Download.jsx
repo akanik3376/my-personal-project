@@ -1,5 +1,5 @@
 // import pdf from '../../public/-text.pdf'
-const pdf_download = 'http://localhost:5173/-text.pdf'
+const pdf_download = '/-text.pdf'
 const Download = () => {
     const handleDownload = (url) => {
         fetch(url)
