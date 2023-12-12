@@ -70,40 +70,7 @@ const Contact = () => {
 
                 <ContactUs></ContactUs>
             </Container>
-            {/* <Container>
-                <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 space-y-4 md:space-y-4 lg:space-y-0">
-                    <div className="flex items-center justify-center gap-3">
-                        <IoCall className="text-3xl" />
-                        <p className="text-xl font-semibold">
-                            01910-697853
-                        </p>
 
-                    </div>
-                    <div className="flex items-center justify-center gap-3">
-                        <SiGmail className="text-3xl" />
-                        <p className="text-xl font-semibold">
-                            ridoygh51@gmail.com
-                        </p>
-
-                    </div>
-                    <a href="https://www.linkedin.com/in/anik-ghosh-15a389299/">
-                        <div className="flex items-center justify-center gap-3">
-                            <IoLogoLinkedin className="text-3xl" />
-                            <p className="text-xl font-semibold text-purple-600 underline">
-                                Linkedin
-                            </p>
-                        </div>
-                    </a>
-                    <a href="https://github.com/akanik3376">
-                        <div className="flex items-center justify-center gap-3">
-                            <FaGithub className="text-3xl" />
-                            <p className="text-xl font-semibold text-purple-600 underline">
-                                Github
-                            </p>
-                        </div>
-                    </a>
-                </div>
-            </Container> */}
         </div>
     );
 };

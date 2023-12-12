@@ -1,15 +1,15 @@
 import Container from "../components/Container";
-import anik from '../assets/img/young-bearded-man-with-striped-shirt_273609-5677.avif'
+import anik from '../assets/img/anik.jpg'
 import Skills from "../components/Skills";
 const AboutMe = () => {
     return (
-        <div >
+        <div className="text-white">
             <Container>
                 <h1 className="text-5xl mb-12 mt-2">About Me</h1>
-                <div className="grid md:grid-cols-3">
+                <div data-aos="fade-right" className="grid md:grid-cols-3">
 
                     <div className=" md:col-span-2 mt-5 md:mt-0 mr-5">
-                        <h1 className="text-5xl font-bold">I'm Anik Ghosh</h1>
+                        <h1 className="text-5xl font-semibold">Hi, I'm Anik Ghosh</h1>
                         <h6 className="text-3xl my-4 font-semibold">A Lead <span className="text-red-500">Front-End Developer</span> based in
                             <span className="text-red-500"> React</span>
                         </h6>
@@ -27,13 +27,13 @@ const AboutMe = () => {
                             <div className="mt-5 md:mt-0">
                                 <p>Address : Khulna, Dighalia</p>
                                 <p>Phone : +8801910697853</p>
-                                <p>Email : mraju5797@gmail.com</p>
+                                <p>Email : ridoygh51@gmail.com</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="md:col-span-1">
-                        <img src={anik} alt="" />
+                    <div data-aos="fade-left" className="md:col-span-1 mt-8 md:mt-0 ">
+                        <img className="h-96 w-full object-cover rounded-md" src={anik} alt="" />
                     </div>
                 </div>
                 <Skills></Skills>

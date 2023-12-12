@@ -23,15 +23,15 @@ export const ContactUs = () => {
     };
 
     return (
-        <form ref={form} onSubmit={sendEmail} className="max-w-md mx-auto mt-8">
+        <form data-aos="fade-up" ref={form} onSubmit={sendEmail} className="max-w-md mx-auto mt-8 text-white">
             <label className="block font-semibold">Name</label>
-            <input type="text" name="user_name" className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
+            <input placeholder='Type Your Name' type="text" name="user_name" className="mt-1 p-2 w-full border border-gray-300 bg-slate-900 rounded-md" />
 
             <label className="block font-semibold mt-4">Email</label>
-            <input type="email" name="user_email" className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
+            <input placeholder='Type Your Email' type="email" name="user_email" className="mt-1 p-2 w-full border border-gray-300 bg-slate-900 rounded-md" />
 
             <label className="block font-semibold mt-4">Message</label>
-            <textarea name="message" className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
+            <textarea placeholder='Your Message' name="message" className="mt-1 p-2 w-full border border-gray-300 bg-slate-900 rounded-md" />
 
             <div>
                 <button
